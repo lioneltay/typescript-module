@@ -1,0 +1,31 @@
+{
+  "name": "typescript-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lioneltay/typescript-module.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lioneltay/typescript-module/issues"
+  },
+  "homepage": "https://github.com/lioneltay/typescript-module#readme",
+  "devDependencies": {
+    "@types/pluralize": "0.0.28",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "pluralize": "^7.0.0"
+  }
+}
