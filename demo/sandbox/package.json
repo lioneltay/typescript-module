@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "typescript-module-practice": "^1.1.0"
+    "typescript-module-practice": "^1.1.1"
   }
 }
