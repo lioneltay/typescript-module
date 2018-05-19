@@ -1,5 +1,7 @@
 # typescript-module
 
+[![Build Status](https://travis-ci.org/lioneltay/typescript-module.svg?branch=master)](https://travis-ci.org/lioneltay/typescript-module)
+
 # mypluralize
 
 A Node.js module that returns the plural form of any noun
