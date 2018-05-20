@@ -1,5 +1,10 @@
 import { getPlural } from "../lib/index"
 
+test("test nonsense", () => {
+  var result = getPlural("asdfjaskldg")
+  expect(result).toEqual("asdfjaskldgs")
+})
+
 test("should return Boys", () => {
   var result = getPlural("Boy")
   expect(result).toEqual("Boys")
